@@ -1,0 +1,713 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Стили шапки сайта */
+
+/*значок гамбургера*/
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #3A3A3A;
+    border-radius: 1px;
+    border-color: white;
+}
+
+/*хедер*/
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*хедер (цвета)*/
+.navbar-inverse {
+    background: #3A3A3A;
+    border-color: #3A3A3A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+/*лого сайта*/
+.img {
+    width: 65px;
+    height: 65px;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: black;
+}
+
+/*цвет для ссылок*/
+a {
+    color: #bdbdbd;
+}
+
+    /*при наведении на ссылку, при фокусировке на ней*/
+    a:hover, a:focus {
+        color: #FF3F03;
+        text-decoration: none;
+        outline: 0;
+    }
+
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+/* Стили для футера */
+
+/*расположение и цвет футера*/
+#footer {
+    background-color: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*цвет иконок*/
+.social a {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 5px;
+}
+
+    /*цвет иконок при наведении*/
+.social a:hover {
+    color: #FF3F03;
+}
+
+/*заголовок в футере*/
+#footer h5 {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Стили для 1-го экрана ГС */
+
+#headerwrap {
+    background: url(../resource/main.png) no-repeat;
+    /*margin-top: -10px;
+    padding-top: 20px;*/
+    text-align: left;
+    background-position: center center;
+    height: 590px;
+    width: 100%;
+}
+
+#headerwrap h1 {
+    margin-top: 170px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 716px;
+    height: 92px;
+    text-align: left;
+}
+
+#headerwrap h2 {
+    color: black;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 716px;
+    height: 45px;
+    text-align: left;
+}
+
+#headerwrap button {
+    width: 200px;
+    height: 50px;
+    background: #FF3F03;
+    border-radius: 10px;
+    border-color: #FF3F03;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 100px;
+}
+
+/* Стили для буллитов на ГС */
+
+#benefit {
+    padding-top: 35px;
+    background-color: #3A3A3A;
+    width: 100%;
+}
+
+#benefit p {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* Стили для 2-го экрана на ГС */
+
+#aboutus {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#aboutus h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#aboutus p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 543px;
+    height: 126px;
+    padding-top: 80px;
+    line-height: 21px;
+}
+
+#aboutus button {
+    width: 200px;
+    height: 50px;
+    background: #FF3F03;
+    border-radius: 10px;
+    border-color: #FF3F03;
+    float: left;
+    margin-top: 150px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#aboutus img{
+    position: absolute;
+    border-radius: 50px;
+    width: 580px;
+    height: 367px;
+    float: right;
+    top: 980px;
+    left: 740px;
+}
+
+/* Стили для 3-го экрана на ГС */
+
+#aboutgoods {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#aboutgoods h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#aboutgoods p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 675px;
+    height: 42px;
+    line-height: 21px;
+    padding-bottom: 90px;
+}
+
+/* Стили для карточек на 3-м экране ГС */
+
+#goods .card-body {
+    text-align: center;
+    width: 320px;
+    height: 357px;
+    background-color: #ECECEC;
+    filter: drop-shadow(-7px 10px 25px rgba(0, 0, 0, 0.25));
+}
+
+#goods .card-img-top {
+    margin-top: 13px;
+}
+
+#goods .card-title {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    height: 42px;
+    line-height: 21px;
+    margin-top: 25px;
+}
+
+#goods button {
+    width: 200px;
+    height: 50px;
+    background: #FF3F03;
+    border-radius: 10px;
+    border-color: #FF3F03;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+}
+
+/* Стили для 4-го экрана на ГС */
+
+#callback {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#callback h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#callback p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    width: 569px;
+    height: 45px;
+    padding-top: 15px;
+    line-height: 21px;
+}
+
+#callback #name{
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 70px;
+}
+                   
+#callback #telephone{
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+#callback button {
+    width: 200px;
+    height: 50px;
+    background: #FF3F03;
+    border-radius: 10px;
+    border-color: #FF3F03;
+    float: left;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#callback img{
+    position: absolute;
+    width: 546px;
+    height: 317px;
+    float: right;
+    top: 2237px;
+    left: 770px;
+}
+
+/* Стили для каталога */
+#catalog {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#catalog h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 5px;
+    border: 2px solid #FF3F03;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myUL li a {
+    border: 2px solid #FF3F03;
+    margin-top: -1px;
+    background-color: #EFEFEF;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+    font-family: 'Roboto';
+}
+
+#myUL li a.header {
+    background-color: #FF3F03;
+    cursor: default;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #6AE77E;
+}
+
+/* Стили для 1-й карточки товара */
+
+#item1_DTM {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#item1_DTM h4 {
+    font-size: 40px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    line-height: 47px;
+}
+
+#item1_DTM img #item1 {
+    position: absolute;
+    width: 242px;
+    height: 463px;
+    float: right;
+    top: 226px;
+    left: 188px;
+    margin-top: 80px;
+}
+
+#item1_DTM p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    top: 226px;
+    line-height: 21px;
+    left: 640px;
+    margin-top: 15px;
+}
+
+#item1_DTM img #group76{
+    position: absolute;
+    width: 384px;
+    height: 114px;
+    float: right;
+    top: 410px;
+    left: 640px;
+}
+
+#item1_DTM img #group77{
+    position: absolute;
+    width: 246px;
+    height: 114px;
+    float: right;
+    top: 580px;
+    left: 640px;
+}
+
+#description_item1_DTM {
+    height: 210px;
+    width: 100%;
+    background-color: #3A3A3A;
+}
+
+#description_item1_DTM img {
+    position: absolute;
+    width: 1158px;
+    height: 210px;
+}
+
+#property_item1_DTM {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.tabs {
+    width: 100%;
+}
+
+.tabs__nav {
+    display: flex;
+}
+
+.tabs__nav-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    border: 0;
+    border-right: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.tabs__nav-btn:last-child {
+    border-right: none;
+}
+
+.tabs__nav-btn:hover {
+    background-color: #ddd;
+}
+
+.tabs__nav-btn.active {
+    background-color: #FF3F03;
+    border-right-color: #FF3F03;
+    color: #000;
+}
+
+.tabs__content {
+    padding: 30px;
+    background-color: #F5F5F5;
+}
+
+.tabs__item {
+    display: none;
+}
+
+.tabs__item.active {
+    display: block;
+}
+
+#property_item1_DTM #tab_2 p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    line-height: 21px;
+    margin-top: 15px;
+    width: 560px;
+    height: 147px;
+}
+
+#tab_2 img #pic_item1 {
+    position: absolute;
+    width: 559px;
+    height: 219px;
+    top: 1130px;
+    left: 740px;
+    float: right;
+}
+
+#tab_2 img #pic2_item1 {
+    position: absolute;
+    width: 400px;
+    height: 379px;
+    top: 1394px;
+    left: 740px;
+    float: right;
+}
+
+#tab_3 #name {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #country {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #city {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #fio {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #email {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #phone {
+    width: 460px;
+    height: 60px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 #text_area {
+    width: 460px;
+    height: 160px;
+    background: #E7E7E7;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#tab_3 p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    line-height: 21px;
+}
+
+#tab_3 button {
+    width: 200px;
+    height: 50px;
+    background: #FF3F03;
+    border-radius: 10px;
+    border-color: #FF3F03;
+    float: left;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Стили валидации формы */
+
+#tab_3 .success .form-control{
+    border-color: #2ecc71;
+}
+
+#tab_3 .error .form-control{
+    border-color: #e74c3c;
+}
+
+#tab_3 .form-group small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#tab_3 .form-group .error small {
+    color: #e74c3c;
+    visibility: visible;
+}

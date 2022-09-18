@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="ru" ng-app="myapp">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Экспорт_ЕКТ</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="Scripts/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+
+<body ng-app="myapp">
+
+    <div>
+        <ng-include src="'header.html'"></ng-include>
+    </div>
+
+    <div id="item1_DTM">
+        <div class="container">
+            <h4>Держатель теплоизоляционных материалов (DTM-N) со стальным гвоздем с термозаглушкой (GT-MT)</h4>
+            <div class="row">
+                <div class="col-xs-12 col-lg-4">
+                    <br /><br />
+                    <img src="resource/item1(DTM).png" alt="Держатель теплоизоляционных материалов (DTM-N) со стальным гвоздем с термозаглушкой (GT-MT)" id="item1">
+                </div>
+                <div class="col-xs-12 col-lg-8">
+                    <br /><br />
+                    <p>
+                        Назначение:
+                        <br />
+                        держатель теплоизоляции (тарельчатый дюбель) используется для крепления термоизоляционных материалов в бетон и полнотелый керамический кирпич.
+                    </p>
+                    <p>
+                        Материал изготовления:
+                        <br />
+                        держатель изготовлен из полипропилена, термозаглушка - из нейлона.
+                    </p>
+                    <p>
+                        Материал теплоизоляции:
+                    </p>
+                    <img src="resource/Group 76.png" alt="Материал теплоизоляции" id="group76">
+                    <p>
+                        Материал основания:
+                    </p>
+                    <img src="resource/Group 77.png" alt="Материал основания" id="group77">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="description_item1_DTM">
+        <div class="container">
+            <img src="resource/Group 18.png" alt="Описание держателя теплоизоляционных материалов (DTM-N) со стальным гвоздем с термозаглушкой (GT-MT)">
+        </div>
+    </div>
+
+    <div id="property_item1_DTM">
+        <div class="container">
+            <div class="tabs">
+                <div class="tabs_nav">
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Характеристики</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_2">Технические параметры</button>
+                    <button class="tabs__nav-btn" type="button" data-tab="#tab_3">Сделать заказ</button>
+                </div>
+                <div class="tabs__content">
+                    <div class="tabs__item" id="tab_1">
+                        <br />
+                        <img src="resource/Table1.png" alt="Характеристики ДТИ (DTM-N) со стальным гвоздем с термозаглушкой (GT-MT)">
+                    </div>
+
+                    <div class="tabs__item" id="tab_2">
+                        <br />
+                        <p>
+                            Подбор длины держателя теплоизоляционных материалов производится по формуле:
+                            <br /><br />
+                            <em>L=l<sub>o</sub>+l</em><sub><em>ef</em></sub>
+                            <br /><br />
+                            С учетом представленной номенклатуры выбирается ближайшее большее по длине изделие.
+                        </p>
+                        <img src="resource/чертеж_item1.png" alt="чертеж" id="pic_item1">
+                        <img src="resource/чертеж2_item1.png" alt="чертеж2" id="pic2_item1">
+                    </div>
+
+                    <div class="tabs__item" id="tab_3">
+                        <br />
+                        <form class="form" id="form">
+                            <div class="form-group">
+                                <label for="validname">Название компании*</label>
+                                <input type="text" class="form-control" id="name" placeholder="ООО “Компания”">
+                                <span class="error"></span>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="validcountry">Страна*</label>
+                                <input type="text" class="form-control" id="country" placeholder="Страна">
+                                <span class="error"></span>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="validcity">Город*</label>
+                                <input type="text" class="form-control" id="city" placeholder="Город">
+                                <span class="error"></span>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="validfio">Ваше имя*</label>
+                                <input type="text" class="form-control" id="fio" placeholder="Фамилия Имя Отчество">
+                                <span class="error"></span>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="validcity">Электронная почта*</label>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <span class="error"></span>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="validphone">Телефон</label>
+                                <input type="text" class="form-control" id="phone" placeholder="Телефон">
+                            </div>
+                            <div class="form-group">
+                                <label for="validtextarea">Текст сообщения*</label>
+                                <textarea class="form-control" required name="message" id="text_area" rows="3" placeholder="Держатель теплоизоляционных материалов 10х180 (DTM-N) со стальным гвоздем с термозаглушкой (GT-MT)"></textarea>
+                            </div>
+                            <p>
+                                * поля, обязательные к заполнению
+                            </p>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <ng-include src="'footer.html'"></ng-include>
+    </div>
+
+    <script>var myapp = angular.module('myapp', [])</script>
+    <script src="js/tabs.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
